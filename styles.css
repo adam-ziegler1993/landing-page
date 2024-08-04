@@ -34,8 +34,7 @@
 
 .hero-div {
     width: 50vw;
-    padding: 3vw;
-
+    padding: 3em;
 }
 
 .hero-div h1 {
@@ -49,18 +48,119 @@
     color: #E5E7EB;
 }
 
-.hero button {
-    color: white;
-    background-color: #3882F6;
-    border-radius: 25%;
-    border: white solid 1px;
-    width: 20vw;
+.img-box {
+    background-color: grey;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.hero button:hover {
-    background-color: blue;
-    transition: 1s;
+/* Random Info Box */
+#info-boxes {
+    padding: 50px;
+    height: auto;
+    width: 100%;
+    text-align: center;
 }
+
+#info-boxes h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.box {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.card {
+    height: 10em;
+    width: 10em;
+    margin: 0 auto;
+    border: solid blue 2px;
+}
+
+caption {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Quote Section */
+#quote {
+    background-color: #E5E7EB;
+    height: auto;
+    width: 100%;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 50px;
+
+    font-style: italic;
+    text-align: center;
+}
+
+#quote p {
+    text-align: right;
+    font-weight: bolder;
+}
+
+/* Call to Action */
+#CTA {
+    height: auto;
+    width: 100%;
+    padding: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#CTA .card {
+    background-color: #3882F6;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#CTA .card-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+#CTA .card-body a {
+    align-self: flex-end; /* Aligns the button to the right */
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: white solid 2px;
+    margin-top: 20px; /* Adds some space between the text and button */
+}
+
+#CTA .card-body a:hover {
+    background-color: white;
+    color: #3882F6;
+}
+
+
+
+
 /* Footer Styles */
 
 footer {
